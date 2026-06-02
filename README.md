@@ -16,22 +16,22 @@ A practical guide to writing fast, memory-efficient, and production-ready data p
 ---
 
 ## 📖 Overview
-NumPy is not just about storing data in arrays—it’s about doing it efficiently[cite: 1]. Beyond basic array operations, these "power tools" help you manipulate, compute, and optimize without wasting time or memory[cite: 1]. 
+NumPy is not just about storing data in arrays—it’s about doing it efficiently. Beyond basic array operations, these "power tools" help you manipulate, compute, and optimize without wasting time or memory. 
 
-Imagine working with a dataset of 10 million records[cite: 1]. Using plain Python loops to process these numbers would take hours, but NumPy power tools turn these operations into fast, vectorized, and memory-efficient computations[cite: 1].
+Imagine working with a dataset of 10 million records. Using plain Python loops to process these numbers would take hours, but NumPy power tools turn these operations into fast, vectorized, and memory-efficient computations.
 
 ---
 
 ## 🛠️ The Arsenal (Core Concepts)
 
-This repository, based on the `NumPy_power_tools.ipynb` notebook, breaks down four critical performance pillars[cite: 1]:
+This repository, based on the `NumPy_power_tools.ipynb` notebook, breaks down four critical performance pillars:
 
 | Concept | Description | Key Benefit |
 | :--- | :--- | :--- |
-| **🎯 Fancy Indexing** | Allows you to select elements of a NumPy array using arrays of indices, instead of plain slices[cite: 1]. | Extremely useful when you need non-contiguous or complex selection[cite: 1]. |
-| **🚀 ufuncs** | Universal functions that operate element-wise on arrays[cite: 1]. Examples include `np.add`, `np.sqrt`, `np.exp`, and `np.sin`[cite: 1]. | They are vectorized, meaning they execute much faster than Python loops and support broadcasting automatically[cite: 1]. |
-| **🧠 Memory Views** | Different arrays can share the same memory without copying data[cite: 1]. | Understanding views helps avoid unnecessary duplication when manipulating parts of a large dataset[cite: 1]. |
-| **⏱️ Profiling** | The process of measuring code performance, checking execution time and memory usage[cite: 1]. | Helps optimize heavy computations and identify bottlenecks before scaling (e.g., using `%timeit`)[cite: 1]. |
+| **🎯 Fancy Indexing** | Allows you to select elements of a NumPy array using arrays of indices, instead of plain slices. | Extremely useful when you need non-contiguous or complex selection. |
+| **🚀 ufuncs** | Universal functions that operate element-wise on arrays. Examples include `np.add`, `np.sqrt`, `np.exp`, and `np.sin`. | They are vectorized, meaning they execute much faster than Python loops and support broadcasting automatically. |
+| **🧠 Memory Views** | Different arrays can share the same memory without copying data. | Understanding views helps avoid unnecessary duplication when manipulating parts of a large dataset. |
+| **⏱️ Profiling** | The process of measuring code performance, checking execution time and memory usage. | Helps optimize heavy computations and identify bottlenecks before scaling (e.g., using `%timeit`). |
 
 ---
 
@@ -39,16 +39,16 @@ This repository, based on the `NumPy_power_tools.ipynb` notebook, breaks down fo
 
 Writing code that works is the baseline; writing code that scales is the goal. The techniques demonstrated here directly apply to:
 
-* **Data Science:** Quickly process large datasets for machine learning[cite: 1].
-* **Finance:** Analyze stock prices or risk metrics with minimal overhead[cite: 1].
-* **Scientific Computing:** Simulate physics, biology, or chemistry experiments efficiently[cite: 1].
-* **Web Analytics:** Compute statistics on millions of page visits in seconds[cite: 1].
+* **Data Science:** Quickly process large datasets for machine learning.
+* **Finance:** Analyze stock prices or risk metrics with minimal overhead.
+* **Scientific Computing:** Simulate physics, biology, or chemistry experiments efficiently.
+* **Web Analytics:** Compute statistics on millions of page visits in seconds.
 
 ---
 
 ## 💻 Code Snapshot: Combining the Tools
 
-Here is a quick look at how these tools combine to filter, process, and view data seamlessly[cite: 1]:
+Here is a quick look at how these tools combine to filter, process, and view data seamlessly:
 
 ```python
 import numpy as np
