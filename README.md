@@ -71,8 +71,8 @@ print("Square Roots (view):", view)
 ```
 
 ## Getting started
-1. Clone repository: git clone [https://github.com/aksharma-15/numpy-power-tools.git](https://github.com/aksharma-15/numpy-power-tools.git)
-cd numpy-power-tools
+1. - Clone repository: git clone [https://github.com/aksharma-15/numpy-power-tools.git](https://github.com/aksharma-15/numpy-power-tools.git)
+   - cd numpy-power-tools
 2. pip install numpy
 3. jupyter notebook NumPy_power_tools.ipynb
 
